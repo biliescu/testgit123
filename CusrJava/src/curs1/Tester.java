@@ -4,6 +4,7 @@ public class Tester {
 	
 	String nume;
 	int ratePerHour;
+	int age;
 	
 	
 	
@@ -15,6 +16,12 @@ public class Tester {
 	}
 	public int getRatePerHour() {
 		return ratePerHour;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
 	}
 	public void setRatePerHour(int ratePerHour) {
 		this.ratePerHour = ratePerHour;
