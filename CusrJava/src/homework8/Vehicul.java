@@ -7,9 +7,9 @@ public class Vehicul {
 	private String vitezaMedie;
 
 	public Vehicul(String brand, int nivelPoluare, String vitezaMedie) {
-		this.setBrand(brand);
-		this.setNivelPoluare(nivelPoluare);
-		this.setVitezaMedie(vitezaMedie);
+		this.brand = brand;
+		this.nivelPoluare = nivelPoluare;
+		this.vitezaMedie = vitezaMedie;
 	}
 
 	public Vehicul() {
@@ -35,24 +35,13 @@ public class Vehicul {
 		return brand;
 	}
 
-	public void setBrand(String brand) {
-		this.brand = brand;
-	}
-
 	public int getNivelPoluare() {
 		return nivelPoluare;
 	}
 
-	public void setNivelPoluare(int nivelPoluare) {
-		this.nivelPoluare = nivelPoluare;
-	}
 
 	public String getVitezaMedie() {
 		return vitezaMedie;
-	}
-
-	public void setVitezaMedie(String vitezaMedie) {
-		this.vitezaMedie = vitezaMedie;
 	}
 
 }
